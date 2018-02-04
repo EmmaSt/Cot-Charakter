@@ -11,6 +11,7 @@ var wuerfel3 = 0;
 var wuerfel4 = 0;
 var Gesamtkosten = 0;
 var R = [0, 0, 0, 0, 0, 0, 0, 0, 0]; //[St, Ko, Ge, In, We, Ch, Schwimmen, Orientierung, Verstecken]
+var ds = false;
 
 var skills = new Array();
 var skillsmodi = new Array(25);
@@ -224,7 +225,6 @@ function Rasse() {
 }
 
 function Modirasse() {
-  var ds = true;
   document.getElementById('St').value = parseInt(document.getElementById('St').value) - R[0];
   document.getElementById('Ko').value = parseInt(document.getElementById('Ko').value) - R[1];
   document.getElementById('Ge').value = parseInt(document.getElementById('Ge').value) - R[2];
