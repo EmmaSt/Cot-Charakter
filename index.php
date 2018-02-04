@@ -17,7 +17,7 @@
 <body onload="FangandutollesProgramm()">
 <div class="container-fluid">
     <h1>
-      Chaos of Time123456
+      Chaos of Time
     </h1>
 
 <div id='Punkte'>
