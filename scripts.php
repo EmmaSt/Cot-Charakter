@@ -224,8 +224,6 @@ function Rasse() {
 }
 
 function Modirasse() {
-
-  var ds = false;
   document.getElementById('St').value = parseInt(document.getElementById('St').value) - R[0];
   document.getElementById('Ko').value = parseInt(document.getElementById('Ko').value) - R[1];
   document.getElementById('Ge').value = parseInt(document.getElementById('Ge').value) - R[2];
@@ -235,46 +233,40 @@ function Modirasse() {
   document.getElementById('a262144').value = parseInt(document.getElementById('a262144').value) - R[6];
   document.getElementById('a16384').value = parseInt(document.getElementById('a16384').value) - R[7];
   document.getElementById('a33554432').value = parseInt(document.getElementById('a33554432').value) - R[8];
-  document.getElementById('b49').checked = ds;
 
   switch(document.forms["Anfang"].elements["Rasse"].selectedIndex){
   case 1:
     R = [0, 0, 0, 0, 0, 0, 0, 0, 0];
     R[2] = 2;
+    
     R[6] = 2;
-    ds = false;
     break;
   case 2:
     R = [0, 0, 0, 0, 0, 0, 0, 0, 0];
     R[4] = 1;
     R[5] = 1;
     R[7] = 2;
-    ds = false;
     break;
   case 3:
     R = [0, 0, 0, 0, 0, 0, 0, 0, 0];
     R[3] = 1;
     R[2] = 1;
     R[8] = 2;
-    ds = false;
     break;
   case 4:
     R = [0, 0, 0, 0, 0, 0, 0, 0, 0];
-    ds = false;
     break;
   case 5:
     R = [0, 0, 0, 0, 0, 0, 0, 0, 0];
     R[2] = 2;
     R[1] = 2;
     R[5] = -1;
-    ds = false;
     break;
   case 6:
     R = [0, 0, 0, 0, 0, 0, 0, 0, 0];
     R[0] = 2;
     R[1] = 2;
     R[5] = -1;
-    ds = true;
   }
 
   document.getElementById('St').value = parseInt(document.getElementById('St').value) + R[0];
