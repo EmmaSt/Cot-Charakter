@@ -271,10 +271,9 @@ function Modirasse() {
   case 6:
     R = [0, 0, 0, 0, 0, 0, 0, 0, 0];
     R[0] = 2;
-    R[1] = 2;
     R[5] = -1;
     ds = true;
-  document.getElementById('b49').checked = ds;  
+  document.getElementById('b49').checked = ds;
   }
 
   document.getElementById('St').value = parseInt(document.getElementById('St').value) + R[0];
