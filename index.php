@@ -24,7 +24,7 @@
     Verfügbare Punkte: 45
 </div>
 <div id="row1" class="row">
-  <div id='allgemein' class="col-md-4 col-xs-6">
+  <div id='allgemein' class="col-md-5 col-xs-6">
           <h4>Allgemeines:</h4>
     <div class="row">
 
