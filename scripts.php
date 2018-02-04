@@ -263,9 +263,9 @@ function Modirasse() {
     break;
   case 5:
     R = [0, 0, 0, 0, 0, 0, 0, 0, 0];
-    R[2] = 2;
-    R[1] = 2;
-    R[5] = -1;
+    R[2] = 1;
+    R[1] = 1;
+    R[5] = -2;
     ds = false;
     break;
   case 6:
