@@ -224,7 +224,7 @@ function Rasse() {
 }
 
 function Modirasse() {
-  var ds = 0;
+  var ds = true;
   document.getElementById('St').value = parseInt(document.getElementById('St').value) - R[0];
   document.getElementById('Ko').value = parseInt(document.getElementById('Ko').value) - R[1];
   document.getElementById('Ge').value = parseInt(document.getElementById('Ge').value) - R[2];
@@ -234,7 +234,7 @@ function Modirasse() {
   document.getElementById('a262144').value = parseInt(document.getElementById('a262144').value) - R[6];
   document.getElementById('a16384').value = parseInt(document.getElementById('a16384').value) - R[7];
   document.getElementById('a33554432').value = parseInt(document.getElementById('a33554432').value) - R[8];
-  document.getElementById('b49').checked = true;
+  document.getElementById('b49').checked = ds;
 
   switch(document.forms["Anfang"].elements["Rasse"].selectedIndex){
   case 1:
