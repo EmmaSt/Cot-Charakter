@@ -24,7 +24,7 @@
     Verfügbare Punkte: 45
 </div>
 <div id="row1" class="row">
-  <div id='allgemein' class="col-md-3 col-xs-6">
+  <div id='allgemein' class="col-md-4 col-xs-6">
           <h4>Allgemeines:</h4>
     <div class="row">
 
@@ -150,7 +150,7 @@
       </div>
   </div><!--#werte0-->
 
-  <div id='kosten' class="col-md-2 col-xs-4">
+  <div id='kosten' class="col-md-1 col-xs-4">
     <h4 id='kostenueberschrift'>Kosten: </h4>
     Kosten Fertigkeiten: 0 <br>
     Übrige Fertigkeitspunkte:0 <br>
