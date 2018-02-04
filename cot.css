@@ -1,0 +1,186 @@
+
+
+div{
+/*  background-color: rgba(100, 100,50, 0.3);*/
+
+}
+
+input[type='text']{
+  height: 34px;
+}
+
+input[type='number']{
+  width: 100px;
+  float: none;
+  height: 34px;
+}
+
+body > div {
+
+    width: auto;
+    margin: 10px;
+    padding: 5px;
+}
+
+/*#row1{
+  border: 2px solid green;
+} */
+
+#row2{
+  margin-top: 2%;
+}
+
+#allgemeintext{
+  line-height: 2.13;
+  text-align: right;
+}
+
+#rasseselect{
+  width: 207px;
+}
+
+#sprachetext{
+  text-align: right;
+}
+
+#sprachenbutton button{
+  width: 207px;
+}
+
+#eignames{
+  line-height: 2.13;
+  text-align: right;
+
+}
+
+#fert_namen p{
+  line-height: 2.13;
+  margin: 0px;
+  text-align: right;
+}
+
+
+
+/*
+#allgemein{
+  width: 300px;
+  float: left;
+  height: 360px;
+}
+
+
+
+#allgemeininput{
+  width: 160px;
+  float:left;
+}
+
+#Anfang form{
+  height: 15;
+  width: 138;
+  }
+
+
+
+#eigenschaften{
+  width: 300px;
+  float: left;
+  height: 360px;
+
+}
+
+#eiginputs{
+  float: left;
+  width: 120px;
+  margin-right: 15px;
+
+}
+
+
+
+#modifikatoren{
+  width: 180px;
+  float:left;
+}
+
+#modi{
+  width: 180px;
+  float: left;
+  height: 360px;
+
+}
+
+#werte0{
+  width: 250px;
+  float: left;
+}
+
+#werte{
+  width: 250px;
+  float: left;
+
+}
+
+#kosten{
+  width: 250px;
+  height: 420px;
+  float: left;
+}
+
+#kostenueberschrift{
+  width: 250px;
+  height: 20px;
+}
+
+
+
+#fert_inputs input{
+  width: 50px;
+  height: 20px;
+
+}
+
+#fert_namen p{
+  height: 28px;
+  margin: 2px;
+  padding: 0px;
+  text-align: right;
+  margin-right: 5px;
+}
+
+#fert_namen{
+  float: left;
+  margin-top: 4px;
+
+}
+
+#fert_inputs{
+  float: left;
+
+}
+
+#fertmodi{}
+
+#fertgesamt{}
+
+#fertigkeiten{
+  width: 350px;
+
+}
+
+#kampftalente{
+  float: left;
+    margin-left: 25px;
+}
+
+#sonsttalente{
+  float:left;
+    margin-left: 25px;
+}
+
+#magietalente{
+  float:left;
+  margin-left: 25px;
+
+}
+*/
