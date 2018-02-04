@@ -274,7 +274,7 @@ function Modirasse() {
     R[1] = 2;
     R[5] = -1;
     ds = true;
-  Modirasse();
+  document.getElementById('b49').checked = ds;  
   }
 
   document.getElementById('St').value = parseInt(document.getElementById('St').value) + R[0];
