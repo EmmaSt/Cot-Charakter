@@ -26,7 +26,7 @@ function FangandutollesProgramm(){
 
 }
 
-function insert ( ){
+function insert (){
 
    var St = parseInt(document.getElementById('St').value);
    var Ko = parseInt(document.getElementById('Ko').value);
