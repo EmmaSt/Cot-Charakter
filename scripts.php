@@ -234,7 +234,7 @@ function Modirasse() {
   document.getElementById('a262144').value = parseInt(document.getElementById('a262144').value) - R[6];
   document.getElementById('a16384').value = parseInt(document.getElementById('a16384').value) - R[7];
   document.getElementById('a33554432').value = parseInt(document.getElementById('a33554432').value) - R[8];
-  document.getElementById('b49').checked = ds;
+  document.getElementById('b49').checked = true;
 
   switch(document.forms["Anfang"].elements["Rasse"].selectedIndex){
   case 1:
