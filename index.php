@@ -9,7 +9,7 @@
     $_Fertigkeiten = array(Angeln, Athletik, "Bluffen/Diplomatie/Einschüchtern", Brauen, "Entdecken/Lauschen", Fallenstellen, Heilkunde, "Infos sammeln", Klettern, Kochen, Körperbeherrschung, "Mechanismen ausschalten", Menschenkenntnis, "Mit Tieren umgehen", Orientierung, Reiten, Schleichen, "Schlösser knacken", Schwimmen, Schätzen, Selbstbeherrschung, Spurenlesen, Taschendiebstahl, Unterhaltungskunst, Überlebenskunst, Verstecken, Zauberkunde, Handwerk, Handwerk, Handwerk, Wissen, Wissen, Wissen);
     $_KampfTalente = array("Leichte Rüstung", "Mittlere Rüstung", "Schwere Rüstung", "Zweihänder führen", "Zweihänder einhändig führen", "Schildkampf", "Umgang mit (Waffentyp1)", "Umgang mit (Waffentyp2)", "Waffenfokus(Waffe1) I", "Waffenfokus(Waffe1) II", "Waffenfokus(Waffe1) III", "Waffenfokus(Waffe1) IV", "Waffenfokus(Waffe2) I", "Waffenfokus(Waffe2) II", "Waffenfokus(Waffe2) III", "Waffenfokus(Waffe2) IV", "Schlaghagel", "Schneller Schuss", "Heftiger Angriff", "Hinterhältiger Angriff I", "Hinterhältiger Angriff II", "Hinterhältiger Angriff III", "Verbessertes Ausweichen", "Berittener Kampf", "Entwaffnen", "Improvisierte Waffe", "Ringkampf", "Tänzelnder Kampf", "Verbessertes Zufallbringen", "Aus vollem Lauf schießen", "Schnelle Waffenbereitschaft");
     $_MagieTalente = array("Magiebegabt", "Zauberfokus(Zauberart1)", "Zauberfokus(Zauberart2)", "Magieaffinität", "Magische Gegenstände herstellen", "Konzentration", "Regeneration I", "Regeneration II", "Regeneration III", "Regeneration IV", "Blutmagie");
-    $_SonstTalente = array("Aufmerksamkeit", "Affinität zu Tieren", "Eiserner Wille", "Versteckte Waffe", "Magieresistent", "Starker Geist", "Gelehrter");
+    $_SonstTalente = array("Aufmerksamkeit", "Affinität zu Tieren", "Eiserner Wille", "Versteckte Waffe", "Magieresistent", "Starker Geist", "Gelehrter", "Dunkelsicht");
     include 'scripts.php';
     ?>
 
@@ -17,7 +17,7 @@
 <body onload="FangandutollesProgramm()">
 <div class="container-fluid">
     <h1>
-      Chaos of Time123
+      Chaos of Time
     </h1>
 
 <div id='Punkte'>
