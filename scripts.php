@@ -274,6 +274,7 @@ function Modirasse() {
     R[1] = 2;
     R[5] = -1;
     ds = true;
+  Modirasse();
   }
 
   document.getElementById('St').value = parseInt(document.getElementById('St').value) + R[0];
